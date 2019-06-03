@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_dice"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/dic"
+    tools:context=".Dice">
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Aby rozpocząć grę, zasłoń i odsłoń czujnik światła!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:text="CPU: 0"
+        android:id="@+id/tv_cpu"/>
+
+    <ImageView
+        android:id="@+id/iv_cpu"
+        android:src="@drawable/six"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:text="VS" />
+
+    <ImageView
+        android:id="@+id/iv_player"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/six"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="32dp"
+        android:text="JA: 0"
+        android:id="@+id/tv_player"/>
+
+    <Button
+        android:id="@+id/reset1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Spróbuj ponownie!" />
+
+</LinearLayout>
